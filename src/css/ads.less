@@ -20,15 +20,20 @@
 }
 
 section.big-ad {
-  width: @ad;
-  min-width: 310px; 
+  width: 100% - @desktop-body;
+  min-width: 300px; 
   float: right;
   clear: right;
   position: relative;
   margin: 1em auto;
-  padding: 0 5px;
 
-  @media @mobile {
-    display: none;
+  @media @tablet {
+    width: 100%;
+    float: none;
+  }
+
+  .tower-ad {
+    text-align: center;
+    min-width: 300px;
   }
 }
