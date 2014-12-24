@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <%= t.include("partials/_adHead.html") %>
   </head>
-  <body>
+  <body class="body">
 
     <%= t.include("partials/_adTop.html") %>
 
@@ -24,7 +24,7 @@
       <p class="summary"><span class="gray-background">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
     </header>
 
-    <section class="body">
+    <section class="seahawks-content">
       <ul class="cards uppercase">
         <label class="gray-accent">Download our</label>
         <a href="#">
@@ -56,6 +56,11 @@
         <li class="card">Crossword <i class="fa fa-newspaper-o"></i></li>
         <li class="card">Bingo <i class="fa fa-pencil-square-o"></i></li>
       </ul>
+
+      <div class="storify" id="storify">
+        <iframe src="//storify.com/seattletimes/apple-cup-spirit-2014/embed?header=false&border=false&template=grid" width="100%" frameborder="no" allowtransparency="true"></iframe>
+        <script src="//storify.com/seattletimes/apple-cup-spirit-2014.js?header=false&border=false&template=grid"></script>
+      </div>
 
     </section>
 
