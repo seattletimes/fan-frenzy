@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <%= t.include("partials/_adHead.html") %>
   </head>
@@ -18,8 +19,12 @@
       </a>
     </nav>
 
-    <h1 class="headline">Fan Frenzy</h1>
-    <p class="summary"><span class="background">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+    <h1 class="headline"><span class="gray-accent">Seahawks</span> Fan Frenzy</h1>
+    <p class="summary"><span class="gray-background">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+
+    <footer>
+      <%= t.include("partials/_adTop.html") %>
+    </footer>
 
     <script src="app.js"></script>
     <% /*= t.include("partials/_adFoot.html"); */ %>

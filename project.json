@@ -1,15 +1,15 @@
 {
   "s3": {
     "stage": {
-      "bucket": "",
-      "path": ""
+      "bucket": "apps-stage.seattletimesdata.com",
+      "path": "frenetic-fans"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "seahawks-fan-frenzy-2015"
     }
   },
-  "title": "",
+  "title": "Seahawks Fan Frenzy: 2015 postseason",
   "description": "",
   "url": "",
   "slug": "",
