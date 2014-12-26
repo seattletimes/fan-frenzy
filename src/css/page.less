@@ -9,35 +9,6 @@
   margin: 0;
 }
 
-.headline {
-  width: 100%;
-  margin: 30px auto 20px;
-  clear: both;
-  text-align: center;
-  color: @seaGreen;
-  font-size: 6em;
-  line-height: 1.1em;
-  text-transform: uppercase;
-  font-family: @block;
-
-  @media @mobile {
-    font-size: 4em;
-  }
-}
-
-.summary {
-  color: @seaGray;
-  font-size: 24px;
-  line-height: 30px;
-  text-align: center;
-  margin: 5px auto;
-  width: 70%;
-
-  @media @tablet {
-    width: 100%;
-  }
-}
-
 .gray-accent {
   color: @seaGray;
 }
@@ -90,11 +61,8 @@ section.seahawks-content {
         }
 
         &.inactive {
-          background-color: @seaGray;
-
-          &:hover {
-            color: @seaBlue;
-          }
+          background-color: fade(@seaGray, 80%);
+          color: @dark;
         }
 
         i.fa {

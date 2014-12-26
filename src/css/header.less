@@ -1,0 +1,72 @@
+@import "variables";
+
+// TOP NAV
+nav.top-bar {
+  border-bottom: 1px solid #AAA;
+  position: relative;
+  width: 100%;
+  clear: both;
+
+  .logo {
+    width: 100%;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    display: block;
+
+    img {
+      box-sizing: content-box;
+      height: 30px;
+      background: @dark;
+      padding: 10px;
+      border: none;
+      display: inline-block;
+    }
+  }
+}
+
+// HEADER
+.headline {
+  width: 100%;
+  margin: 30px auto 20px;
+  clear: both;
+  text-align: center;
+  color: @seaGreen;
+  font-size: 6em;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  font-family: @block;
+
+  @media @mobile {
+    font-size: 4em;
+  }
+}
+
+.summary {
+  color: @seaGray;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  margin: 5px auto;
+  width: 70%;
+
+  @media @tablet {
+    width: 100%;
+  }
+}
+
+// SHARE
+.share.sharer-0 {
+  display: inline-block!important;
+
+  label.entypo-export {
+    background: rgba(255,255,255,0.2);
+    color: @seaGray;
+    border-radius: 0;
+
+    &:hover {
+      color: #008ee7;
+      opacity: 1;
+    }
+  }
+}
