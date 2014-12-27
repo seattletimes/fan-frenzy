@@ -6,12 +6,12 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": "seahawks-fan-frenzy-2015"
+      "path": "2015/seahawks-fan-frenzy"
     }
   },
   "title": "Fan Frenzy 2015: Seahawks in NFL playoffs",
   "description": "The Seahawks are aiming for another Super Bowl victory and who can blame their fans for wanting to have a little fun along the way? See the latest fun promotions and the viral news bits that everyone’s talking about.",
-  "url": "http://projects.seattletimes.com/seahawks-fan-frenzy-2015",
+  "url": "http://projects.seattletimes.com/2015/seahawks-fan-frenzy",
   "slug": "seahawks-fan-frenzy-2015",
   "tags": ["seahawks", "fans", "12th man", "12s", "super bowl", "nfl", "football", "sports"]
 }

@@ -58,14 +58,17 @@ nav.top-bar {
 // SHARE
 .share.sharer-0 {
   display: inline-block!important;
+  z-index: 999;
 
   label.entypo-export {
     background: rgba(255,255,255,0.2);
+    background: none;
+    border: 1px solid @seaGray;
     color: @seaGray;
     border-radius: 0;
 
     &:hover {
-      color: #008ee7;
+      color: @seaGreen;
       opacity: 1;
     }
   }

@@ -5,6 +5,6 @@ var Share = require("share");
 //Share button
 var share = window.share = new Share(".share", {
   ui: {
-    flyout: "bottom center"
+    flyout: "top center"
   }
 });
