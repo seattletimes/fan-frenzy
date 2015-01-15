@@ -43,6 +43,14 @@ section.seahawks-content {
 
     .cards-label {
       margin-right: 5px;
+      display: inline-block;
+      min-width: 120px;
+      text-align: right;
+
+      @media @mobile {
+        min-width: 0;
+        text-align: left;
+      }
     }
 
     li {
@@ -55,9 +63,13 @@ section.seahawks-content {
         padding: 5px;
         vertical-align: middle;
         text-align: center;
-        min-width: 100px;
+        min-width: 130px;
         margin: 2px 0;
         transition: background 0.2s ease, color 0.2s ease;
+
+        @media @mobile {
+          min-width: 100px;
+        }
 
         &:hover {
           background-color: @seaBlue;
